@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-family: Open Sans, sans-serif;
+  letter-spacing: 0.02em;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+ul,
+li {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+textarea {
+  resize: none;
+}
+
+p {
+  margin: 0;
+}

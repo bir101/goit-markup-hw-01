@@ -1,0 +1,172 @@
+.section-sign {
+  padding-top: 84px;
+  padding-bottom: 84px;
+  text-align: center;
+  background-color: #191c26;
+}
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: #9da4bd;
+}
+
+.footer-title {
+  display: inline-block;
+  margin-bottom: 44px;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+.footer-field {
+  position: relative;
+
+  margin-bottom: 44px;
+}
+.footer-imput {
+  width: 100%;
+  height: 24px;
+  background-color: #191c26;
+  color: #ffffff;
+  border: none;
+  border-bottom: solid;
+  border-bottom-color: #ffffff;
+}
+
+.footer-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+}
+
+.footer-contact {
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+  color: #9da4bd;
+}
+
+.footer-imput__textarea {
+  width: 100%;
+  height: 76px;
+
+  background-color: #191c26;
+  color: #ffffff;
+  border: none;
+  border-bottom: solid;
+  border-bottom-color: #ffffff;
+}
+.footer-label__textaria {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+}
+
+// контакты
+.section-contact {
+  padding-top: 84px;
+  padding-bottom: 84px;
+  text-align: center;
+
+  &__background {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    background-image: url(../images/footermobile.png);
+    background-color: #191c26;
+  }
+
+  //   @media screen and (min-device-pixel-ratio: 2),
+  //     screen and (min-resolution: 192dpi),
+  //     screen and (min-resolution: 2dppx) {
+  //     background-image: linear-gradient(
+  //         to right,
+  //         rgba(47, 48, 58, 0.8),
+  //         rgba(47, 48, 58, 0.8)
+  //       ),
+  //       url(../images/heromobile2x.jpg);
+  //   }
+  // }
+}
+
+.footer-contact {
+  // padding-top: 84px;
+}
+.footer_adress {
+  display: flex;
+  flex-direction: column;
+  font-family: Open Sans;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  &__mail {
+    margin-bottom: 44px;
+    text-align: left;
+    text-decoration: underline;
+    color: #9da4bd;
+  }
+}
+.footer_adress__label {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.footer-time {
+  text-align: left;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+  color: #9da4bd;
+}
+.footer-title__adress {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.copyrigt {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 44px;
+  margin-bottom: 44px;
+}
+.copyrigt-list {
+  display: flex;
+
+  color: #303030;
+}
+.copyrigt-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.copyrigt-text {
+  margin-top: 35px;
+  color: #9da4bd;
+}
