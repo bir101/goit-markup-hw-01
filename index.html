@@ -16,48 +16,56 @@
   </head>
   <body>
     <section class="container section-sign">
-      <b class="footer-title">Онлайн-запись</b>
-      <form class="footer-form">
-        <label class="footer-field">
-          <input type="text" class="footer-imput" />
-          <span class="footer-label">Имя*</span>
-        </label>
+      <div class="item">
+        <b class="footer-title">Онлайн-запись</b>
+        <form>
+          <ul class="footer-form">
+            <li class="footer-field">
+              <label>
+                <input type="text" class="footer-imput" />
+                <span class="footer-label">Имя*</span>
+              </label>
+            </li>
 
-        <label class="footer-field">
-          <input type="tel" class="footer-imput" />
-          <span class="footer-label">Телефон*</span>
-        </label>
+            <li class="footer-field">
+              <label>
+                <input type="tel" class="footer-imput" />
+                <span class="footer-label">Телефон*</span>
+              </label>
+            </li>
 
-        <label class="footer-field">
-          <textarea
-            name="comment"
-            bcols="30"
-            brows="10"
-            class="footer-imput__textarea"
-          ></textarea>
-          <span class="footer-label__textaria">Сообщение</span>
-        </label>
-
-        <button type="submit">Отправить</button>
-      </form>
-    </section>
-    <section class="container section-contact section-contact__background">
-      <div class="footer-contact">
-        <b class="footer-title">Контакты</b>
-        <address class="footer_adress">
-          <span class="footer_adress__label"
-            >ул. Васильковая, 7А, Киев, 08132</span
-          >
-          <span class="footer_adress__label">+38 044 111 11 11</span>
-          <a href="mailto:barbershop@email.com" class="footer_adress__mail"
-            >barbershop@email.com</a
-          >
-        </address>
+            <li class="footer-field footer-field__textarea">
+              <label>
+                <textarea
+                  name="comment"
+                  bcols="30"
+                  brows="10"
+                  class="footer-imput__textarea"
+                ></textarea>
+                <span class="footer-label__textaria">Сообщение</span>
+              </label>
+            </li>
+          </ul>
+          <a type="submit" class="primary-button">Отправить</a>
+        </form>
       </div>
 
-      <div class="footer-time">
-        <b class="footer-title__adress">ВРЕМЯ РАБОТЫ</b>
-        <p>Ежедневно с 9:00 до 22:00</p>
+      <div class="section-contact section-contact__background item">
+        <div class="footer-contact">
+          <b class="footer-title">Контакты</b>
+          <address class="footer_adress">
+            <span class="footer_adress__label">ул. Васильковая, 7А, Киев, 08132</span>
+            <span class="footer_adress__label">+38 044 111 11 11</span>
+            <a href="mailto:barbershop@email.com" class="footer_adress__mail"
+              >barbershop@email.com</a
+            >
+          </address>
+        </div>
+
+        <div class="footer-time">
+          <b class="footer-title__adress">ВРЕМЯ РАБОТЫ</b>
+          <p>Ежедневно с 9:00 до 22:00</p>
+        </div>
       </div>
     </section>
     <footer class="container copyrigt">
